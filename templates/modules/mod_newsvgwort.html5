@@ -1,0 +1,7 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<img src="http://vg04.met.vgwort.de/na/<?=$this->code; ?>" width="1" height="1" alt="">
+
+<?php $this->endblock(); ?>
