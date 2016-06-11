@@ -1,0 +1,35 @@
+{
+    "name":"sascha-brandhoff/news_vgwort",
+    "description":"allows to add a vg-wort code to every news item",
+    "keywords":["contao","news", "vg", "wort", "vg wort"],
+    "type":"contao-module",
+    "homepage":"http://www.pixelspread.de/contao-modules/",
+    "license":"LGPLv3",
+    "authors":[
+	{
+	    "name":"Sascha Brandhoff",
+	    "email":"sascha.brandhoff@gmail.com",
+	    "homepage":"https://www.paypal.me/pixelSpreadde",
+	    "role":"Developer"
+	}
+    ],
+    "support":{
+	"email":"sascha.brandhoff@gmail.com",
+	"issues":"https://github.com/Sascha-Brandhoff/logincontroll/issues",
+	"source":"https://github.com/Sascha-Brandhoff/logincontroll"
+    },
+    "require":{
+	"php":">=5.3",
+	"contao/core": ">=3.4,<3.6"
+    },
+    "replace":{
+	"sascha-brandhoff/news_vgwort":"self.version"
+    },
+    "extra":{
+	"contao":{
+	    "sources":{
+		"":"system/modules/news_vgwort"
+	    }
+	}
+    }
+}
